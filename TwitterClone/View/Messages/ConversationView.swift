@@ -46,6 +46,8 @@ struct ConversationView: View {
             .sheet(isPresented: $isShowingNewMessageView,content: {
                 NewMessageView(show: $isShowingNewMessageView, startChat: $showChat)
             })
+            .navigationTitle("Message")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

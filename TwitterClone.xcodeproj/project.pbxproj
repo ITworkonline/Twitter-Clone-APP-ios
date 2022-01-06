@@ -24,6 +24,12 @@
 		3C7990AF27851F8300555A44 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7990AE27851F8300555A44 /* Message.swift */; };
 		3C7990B12785231000555A44 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7990B02785231000555A44 /* MessageView.swift */; };
 		3C7990B32785243100555A44 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7990B22785243100555A44 /* NewMessageView.swift */; };
+		3C7990B627865DCC00555A44 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7990B527865DCC00555A44 /* UserProfileView.swift */; };
+		3C7990B827865E9400555A44 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7990B727865E9400555A44 /* ProfileHeaderView.swift */; };
+		3C7990BA27865EA500555A44 /* ProfileActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7990B927865EA500555A44 /* ProfileActionButton.swift */; };
+		3C7990BC27865EB500555A44 /* FilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7990BB27865EB500555A44 /* FilterButtonView.swift */; };
+		3C7990BF27866C7D00555A44 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7990BE27866C7D00555A44 /* NewTweetView.swift */; };
+		3C7990C22786712D00555A44 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7990C12786712D00555A44 /* TextArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +51,12 @@
 		3C7990AE27851F8300555A44 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		3C7990B02785231000555A44 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		3C7990B22785243100555A44 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
+		3C7990B527865DCC00555A44 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		3C7990B727865E9400555A44 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		3C7990B927865EA500555A44 /* ProfileActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButton.swift; sourceTree = "<group>"; };
+		3C7990BB27865EB500555A44 /* FilterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonView.swift; sourceTree = "<group>"; };
+		3C7990BE27866C7D00555A44 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		3C7990C12786712D00555A44 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +89,7 @@
 		3C7990802783B15C00555A44 /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
-				3C79909E278511A200555A44 /* New Group */,
+				3C79909E278511A200555A44 /* Utils */,
 				3C7990912783B95C00555A44 /* Model */,
 				3C7990902783B95A00555A44 /* View */,
 				3C79908F2783B95600555A44 /* ViewModels */,
@@ -106,6 +118,8 @@
 		3C7990902783B95A00555A44 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3C7990BD27866C6900555A44 /* Tweets */,
+				3C7990B427865DB900555A44 /* Profile */,
 				3C79909F278511A800555A44 /* Messages */,
 				3C7990832783B15C00555A44 /* ContentView.swift */,
 				3C7990942783B9D900555A44 /* FeedView.swift */,
@@ -125,11 +139,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		3C79909E278511A200555A44 /* New Group */ = {
+		3C79909E278511A200555A44 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3C7990C02786711E00555A44 /* Views */,
 			);
-			path = "New Group";
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		3C79909F278511A800555A44 /* Messages */ = {
@@ -144,6 +159,33 @@
 				3C7990B22785243100555A44 /* NewMessageView.swift */,
 			);
 			path = Messages;
+			sourceTree = "<group>";
+		};
+		3C7990B427865DB900555A44 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3C7990B527865DCC00555A44 /* UserProfileView.swift */,
+				3C7990B727865E9400555A44 /* ProfileHeaderView.swift */,
+				3C7990B927865EA500555A44 /* ProfileActionButton.swift */,
+				3C7990BB27865EB500555A44 /* FilterButtonView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3C7990BD27866C6900555A44 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				3C7990BE27866C7D00555A44 /* NewTweetView.swift */,
+			);
+			path = Tweets;
+			sourceTree = "<group>";
+		};
+		3C7990C02786711E00555A44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C7990C12786712D00555A44 /* TextArea.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,16 +259,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C7990992785026E00555A44 /* SearchView.swift in Sources */,
+				3C7990C22786712D00555A44 /* TextArea.swift in Sources */,
 				3C7990A52785196F00555A44 /* MessageInputView.swift in Sources */,
 				3C7990842783B15C00555A44 /* ContentView.swift in Sources */,
+				3C7990BA27865EA500555A44 /* ProfileActionButton.swift in Sources */,
 				3C7990952783B9D900555A44 /* FeedView.swift in Sources */,
+				3C7990B827865E9400555A44 /* ProfileHeaderView.swift in Sources */,
 				3C7990AB27851B5500555A44 /* ChatView.swift in Sources */,
+				3C7990BF27866C7D00555A44 /* NewTweetView.swift in Sources */,
+				3C7990BC27865EB500555A44 /* FilterButtonView.swift in Sources */,
 				3C7990822783B15C00555A44 /* TwitterCloneApp.swift in Sources */,
 				3C7990972783BE0000555A44 /* TweetCell.swift in Sources */,
 				3C7990AD27851D3700555A44 /* ChatBubble.swift in Sources */,
 				3C79909B27850CBA00555A44 /* SearchBar.swift in Sources */,
 				3C7990B32785243100555A44 /* NewMessageView.swift in Sources */,
 				3C7990AF27851F8300555A44 /* Message.swift in Sources */,
+				3C7990B627865DCC00555A44 /* UserProfileView.swift in Sources */,
 				3C79909D27850F4400555A44 /* UserCell.swift in Sources */,
 				3C7990A1278511C200555A44 /* ConversationView.swift in Sources */,
 				3C7990B12785231000555A44 /* MessageView.swift in Sources */,
