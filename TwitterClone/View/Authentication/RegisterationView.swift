@@ -17,6 +17,7 @@ struct RegisterationView: View {
     @State var image: Image? //swiftui
     
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+    @ObservedObject var viewModel = AuthViewModel()
     
     func loadImage() {
         guard let selectedUIImage = selectedUIImage else {
@@ -84,7 +85,12 @@ struct RegisterationView: View {
                 
             }
             
-            Button(action: {}, label: {
+            Button(action: {
+                guard let image = selectedUIImage else {
+                    return
+                }
+                viewModel.registerUser(email: email, password: password, username: username, fullname: fullname, profileImage: image)
+            }, label: {
                 Text("Sign Up")
                     .font(.headline)
                     .foregroundColor(.blue)
@@ -107,7 +113,7 @@ struct RegisterationView: View {
             }
         }
     }
-    .background(Color.blue)
+    .background(Color(#colorLiteral(red: 0.1825715601, green: 0.6299551129, blue: 0.9542170167, alpha: 1)))
     .ignoresSafeArea()
     
     }
