@@ -14,9 +14,9 @@ Swift, Firebase, MVVM
      <td>Image picker page</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/signin.png" width=270 height=480></td>
-    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/signup.png" width=270 height=480></td>
-    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/imagepicker.png" width=270 height=480></td>
+    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/signin.png" width=270 height=600></td>
+    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/signup.png" width=270 height=600></td>
+    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/imagepicker.png" width=270 height=600></td>
   </tr>
  </table>
 
@@ -27,8 +27,18 @@ Swift, Firebase, MVVM
      <td>if not current user profile page</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/profile.png" width=270 height=480></td>
-    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/currentuser.png" width=270 height=480></td>
-    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/ifnotcurrentuser.png" width=270 height=480></td>
+    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/profile.png" width=270 height=600></td>
+    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/currentuser.png" width=270 height=600></td>
+    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/ifnotcurrentuser.png" width=270 height=600></td>
+  </tr>
+ </table>
+ 
+ <table>
+  <tr>
+    <td>Home page</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/home.png" width=270 height=600></td>
+
   </tr>
  </table>
