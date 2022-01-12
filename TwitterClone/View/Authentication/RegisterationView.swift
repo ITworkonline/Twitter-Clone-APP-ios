@@ -17,8 +17,8 @@ struct RegisterationView: View {
     @State var image: Image? //swiftui
     
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
-    @EnvironmentObject var viewModel: AuthViewModel
-
+    @ObservedObject var viewModel = AuthViewModel()
+    
     func loadImage() {
         guard let selectedUIImage = selectedUIImage else {
             return

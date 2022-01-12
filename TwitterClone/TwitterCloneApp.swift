@@ -16,8 +16,8 @@ struct TwitterCloneApp: App {
     }
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(AuthViewModel())
-            
+           //ContentView()
+            LoginView()
         }
     }
 }
