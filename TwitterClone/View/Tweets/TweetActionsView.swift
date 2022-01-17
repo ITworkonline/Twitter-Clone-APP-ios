@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TweetActionsView: View {
     let tweet: Tweet
-    @ObservedObject var viewModel : TweetActionViewModel
+    @ObservedObject var viewModel: TweetActionViewModel
     
     init(tweet:Tweet) {
         self.tweet = tweet
@@ -31,7 +31,7 @@ struct TweetActionsView: View {
             Spacer()
 
             Button(action: {
-                viewModel.didLike ? viewModel.likeTweet():viewModel.unlikeTweet()
+                viewModel.didLike ? viewModel.unlikeTweet():viewModel.likeTweet()
                 
             }, label: {
                 Image(systemName: viewModel.didLike ? "heart.fill": "heart")

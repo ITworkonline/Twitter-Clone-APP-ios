@@ -22,6 +22,9 @@ struct FeedView: View {
                     }
                 }.padding()
             }
+            .navigationTitle("Home")
+                .navigationBarTitleDisplayMode(.inline)
+
             Button(action: {
                 isShowingNewTweetView.toggle()
             }, label: {
