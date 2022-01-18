@@ -8,7 +8,14 @@
 import SwiftUI
 
 struct ChatView: View {
+    let user: User
+    let viewModel: ChatViewModel
     @State var messageText: String = ""
+    
+    init(user:User) {
+        self.user = user
+        self.viewModel = ChatViewModel(user:user)
+    }
     var body: some View {
         VStack {
             ScrollView {
@@ -21,12 +28,6 @@ struct ChatView: View {
             MessageInputView(messageText: $messageText)
                 .padding()
         }
-    }
-}
-
-struct ChatView_Previews: PreviewProvider {
-    static var previews: some View {
-        ChatView()
     }
 }
 

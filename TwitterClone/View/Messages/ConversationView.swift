@@ -23,7 +23,7 @@ struct ConversationView: View {
                 VStack {
                     ForEach(0..<20) { _ in
                         NavigationLink(
-                            destination: ChatView(),
+                            destination: ChatView(user: user),
                             label: {
                                 ConversationCell()
                             })
