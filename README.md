@@ -49,3 +49,6 @@ Swift, Firebase, MVVM
  </table>
  
 
+## Demo gif
+
+![](https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/demo.gif)  
