@@ -58,3 +58,7 @@ Swift, Firebase, MVVM
 ## Demo gif
 
 ![](https://github.com/ITworkonline/Twitter-Clone-APP-ios/blob/main/images/demo.gif)  
+
+## Ref
+
+https://www.udemy.com/course/twitter-swiftui-clone-ios-14-swift-5-firestore-mvvm/#reviews
