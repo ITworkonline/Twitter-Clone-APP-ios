@@ -5,6 +5,12 @@ This is a self-learning project starting from Winter 2021. Our goal is building 
 ## Techs:
 Swift, Firebase, MVVM
 
+## Main features:
+* User login and logout
+* User profile page: Allow to change the profile image showing as avatar
+* Post the twitter and show on Home page (Friends can view)
+* Thumds up: People who are friends with the twitter's owner can like the tweet
+* Chat between friends
 
 ## Page review
 <table>
